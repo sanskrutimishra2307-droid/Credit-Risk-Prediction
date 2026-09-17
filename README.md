@@ -1,4 +1,4 @@
-# Credit Risk Assessment using LIME — Explainable AI Dashboard
+# Credit Risk Assessment using LIME - Explainable AI Dashboard
 
 A full-stack, machine learning-powered web application for credit risk assessment with **LIME (Local Interpretable Model-agnostic Explanations)** transparency. Designed for practical enterprise risk management and academic B.Tech AI/ML capstone demonstrations.
 
