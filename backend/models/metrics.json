@@ -1,0 +1,100 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.74,
+    "precision": 0.757,
+    "recall": 0.757,
+    "f1_score": 0.757,
+    "roc_auc": 0.8048,
+    "confusion_matrix": [
+      [
+        67,
+        26
+      ],
+      [
+        26,
+        81
+      ]
+    ]
+  },
+  "random_forest": {
+    "accuracy": 0.72,
+    "precision": 0.7429,
+    "recall": 0.729,
+    "f1_score": 0.7358,
+    "roc_auc": 0.7867,
+    "confusion_matrix": [
+      [
+        66,
+        27
+      ],
+      [
+        29,
+        78
+      ]
+    ]
+  },
+  "feature_importance": {
+    "credit_amount": 0.1592,
+    "duration": 0.1315,
+    "age": 0.1201,
+    "checking_account_little": 0.0876,
+    "checking_account_unknown": 0.0641,
+    "saving_accounts_little": 0.048,
+    "checking_account_moderate": 0.0258,
+    "saving_accounts_quite rich": 0.0251,
+    "housing_own": 0.0246,
+    "housing_rent": 0.023,
+    "job_2": 0.0225,
+    "checking_account_rich": 0.0217,
+    "sex_male": 0.0214,
+    "purpose_car": 0.021,
+    "saving_accounts_unknown": 0.0203,
+    "purpose_radio/TV": 0.0203,
+    "sex_female": 0.0191,
+    "job_1": 0.0191,
+    "purpose_furniture/equipment": 0.0184,
+    "saving_accounts_rich": 0.018,
+    "purpose_education": 0.0156,
+    "job_3": 0.0152,
+    "saving_accounts_moderate": 0.0141,
+    "housing_free": 0.0133,
+    "purpose_business": 0.0125,
+    "purpose_repairs": 0.0066,
+    "purpose_vacation/others": 0.0061,
+    "job_0": 0.0034,
+    "purpose_domestic appliances": 0.0022
+  },
+  "feature_names": [
+    "age",
+    "credit_amount",
+    "duration",
+    "sex_female",
+    "sex_male",
+    "job_0",
+    "job_1",
+    "job_2",
+    "job_3",
+    "housing_free",
+    "housing_own",
+    "housing_rent",
+    "saving_accounts_little",
+    "saving_accounts_moderate",
+    "saving_accounts_quite rich",
+    "saving_accounts_rich",
+    "saving_accounts_unknown",
+    "checking_account_little",
+    "checking_account_moderate",
+    "checking_account_rich",
+    "checking_account_unknown",
+    "purpose_business",
+    "purpose_car",
+    "purpose_domestic appliances",
+    "purpose_education",
+    "purpose_furniture/equipment",
+    "purpose_radio/TV",
+    "purpose_repairs",
+    "purpose_vacation/others"
+  ],
+  "train_size": 800,
+  "test_size": 200
+}
